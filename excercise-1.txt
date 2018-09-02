@@ -11,9 +11,10 @@ DISPLAY "resultan gaya"
 
 //2. Tahun Kabisat
 
+PSEUDOCODE
 STORE "a" to 4
 STORE "b" to 100
-STORE "c" 400
+STORE "c" to 400
 STORE "tahun" to any number
 
 IF "tahun" mod "a" equals to 0 AND "tahun" mod "b" NOT equals to 0
@@ -23,8 +24,22 @@ ELSE IF "tahun" mod "a" equals to 0 AND "tahun" mod "b" equals to 0 AND "tahun" 
 ELSE
     DISPLAY "Bukan Tahun Kabisat"
 
+ALGORITMA
+1. Simpan "a" dengan nilai 4
+2. Simpan "b" dengan nilai 100
+3. Simpan "c" dengan nilai 400
+4. Simpan "tahun" dengan nilai berapapun
+5. Jika nilai "tahun" habis dibagi nilai "a" dan nilai "tahun" tidak habis dibagi nilai "b"
+6. Tampilkan "Tahun Kabisat"
+7. Jika tidak, jika nilai "tahun" habis dibagi nilai "a" dan nilai "tahun" habis dibagi nilai "b" dan nilai "tahun" habis dibagi nilai "c"
+8. Tampilkan "Tahun Kabisat"
+9. Selain itu
+10. Tampilkan "Bukan Tahun Kabisat"
+
+
 //3.Laudry Day
 
+PSEUDOCODE
 STORE "jumlah pakaian" with 0
 
 WHILE "jumlah pakaian" less than 20
@@ -32,8 +47,15 @@ WHILE "jumlah pakaian" less than 20
 
 DISPLAY "Mesin Cuci Menyala"
 
+ALGORITMA
+1. Simpan nilai "jumlah pakaian" dengan nilai 0
+2. Ulangi langkah ke 3 selama "jumlah pakaian" masih di bawah 20. Jika "jumlah pakaian" sudah 20, lanjut ke langkah 4.
+3. Tambah "jumlah pakaian" dengan 1, agar mencapai batas perulangan. Kembali ke langkah 2.
+4. Tampilkan "Mesin Cuci Menyala"
+
 //4.Periksa Kuku
 
+PSEUDOCODE
 STORE "jumlah siswa" with 0
 STORE "siswa" with any value
 
@@ -42,7 +64,17 @@ WHILE "jumlah siswa" < 40
     DO "cek kuku siswa"
         IF "siswa" == "kuku panjang"
             DO "hukum siswa"
-        ELSE "siswa" != "kuku panjang"
+        ELSE "siswa" !== "kuku panjang"
             DO "puji siswa" 
 
+ALGORITMA
+1. Simpan nilai "jumlah siswa" dengan nilai 0
+2. Simpan nilai "siswa" dengan nilai berapapun
+3. Ulangi langkah 4 selama "jumlah siswa" masih di bawah 40. 
+4. Tambah "jumlah siswa" dengan 1, agar mencapai batas perulangan. Kembali ke langkah 3.
+5. Lakukan "cek kuku siswa"
+6. Jika "siswa" memiliki "kuku panjang"
+7. Lakukan "hukum siswa"
+8. Jika tidak
+9. Lakukan "puji siswa"
 
