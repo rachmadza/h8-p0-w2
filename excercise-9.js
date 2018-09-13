@@ -13,15 +13,12 @@ console.log(shoutOut());
 console.log('');
 //Tugas 2
 
-function calculateMultiply() {
+function calculateMultiply(num1,num2) {
     
     return num1 * num2;
 }
 
-var num1 = 5;
-var num2 = 6;
-
-var hasilPerkalian = calculateMultiply(num1,num2);
+var hasilPerkalian = calculateMultiply(5,6);
 console.log(hasilPerkalian);
 
 
@@ -29,15 +26,10 @@ console.log(hasilPerkalian);
 console.log('');
 //Tugas 3
 
-function processSentence() {
+function processSentence(name,age,address,hobby) {
     
     return 'Nama saya ' +name+ ', umur saya ' +age+ ' tahun, alamat saya di ' +address+ ', dan saya punya hobby yaitu ' +hobby+ '!'
 }
 
-var name = "Agus";
-var age = 30;
-var address = "Jln. Malioboro, Yogjakarta";
-var hobby = "gaming";
-
-var fullSentence = processSentence(name,age,address,hobby);
+var fullSentence = processSentence('Agus','30','Jln. Malioboro, Yogjakarta','gaming');
 console.log(fullSentence);
